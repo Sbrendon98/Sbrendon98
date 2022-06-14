@@ -21,7 +21,7 @@ export const Login = () => {
             <form onSubmit={handleLogin}>
                 <div className="loginForm">
                     <input type="text" id="email" placeholder="Email" />
-                    <input type="text" id="password" placeholder="Password" />
+                    <input type="password" id="password" placeholder="Password" />
                     <button type="Submit">LogIn</button>
                 </div>
             </form>
